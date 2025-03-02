@@ -14,5 +14,10 @@ cask "ordnett-pluss" do
 
   pkg "OrdnettPluss3.pkg"
 
-  uninstall pkgutil: "com.vendor.OrdnettPluss3"
+  uninstall pkgutil: "no.Gyldendal.OrdnettPluss"
+
+  zap trash: [
+    "~/Library/Saved Application State/no.gyldendal.ordnettpluss.savedState",
+    "~/ordnettPluss",
+  ]
 end
