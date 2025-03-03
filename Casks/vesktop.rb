@@ -8,6 +8,8 @@ cask "vesktop" do
   desc "Vesktop gives you the performance of web Discord and the comfort of Discord Desktop"
   homepage "https://github.com/Vencord/Vesktop"
 
+  depends_on macos: ">= :big_sur"
+
   app "Vesktop.app"
 
   livecheck do
