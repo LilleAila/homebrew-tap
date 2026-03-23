@@ -15,8 +15,6 @@ cask "proxybridge" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
-
   pkg "ProxyBridge-v#{version}-Universal-Installer.pkg"
 
   zap trash: [

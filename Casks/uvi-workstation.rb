@@ -14,8 +14,6 @@ cask "uvi-workstation" do
     skip
   end
 
-  depends_on macos: ">= :mojave"
-
   pkg "UVI Workstation.pkg"
 
   zap trash: [

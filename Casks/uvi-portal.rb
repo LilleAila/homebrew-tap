@@ -14,8 +14,6 @@ cask "uvi-portal" do
     skip
   end
 
-  depends_on macos: ">= :mojave"
-
   pkg "UVI Portal.pkg"
 
   zap trash: "~/Library/Application Support/UVI Portal"
