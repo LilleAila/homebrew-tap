@@ -12,10 +12,9 @@ cask "wiiudownloader" do
     strategy :github_latest
   end
 
-
   app "WiiUDownloader.app"
 
-zap trash: [
+  zap trash: [
     "~/Library/Preferences/com.xpl0itu.wiiudownloader.plist",
     "~/Library/Saved Application State/com.xpl0itu.wiiudownloader.savedState",
   ]
